@@ -11,13 +11,16 @@ Create an ubuntu instance (region us-west-2)
 
 ssh to the instance from local
 
-Install AWS CLI v2
+### Install AWS CLI v2
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
 sudo apt install unzip
+
 unzip awscliv2.zip
+
 sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin --update
 
-Setup your access by
+### Setup your access by
 
 
 aws configure
